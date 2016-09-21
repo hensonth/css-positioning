@@ -5,7 +5,51 @@ light blue: #1c5380
 */
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
   margin: 0;
+  background: linear-gradient(#125688,white);
+  background-repeat: no-repeat;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 10px;
+}
+
+ul {
+  display: inline;
+  margin: auto;
+  text-align: center;
+  text-transform: capitalize;
+  overflow: hidden;
+  padding: 0;
+}
+
+.container {
+  border: 1px solid black;
+  height:500px;
+  width: 500px;
+  position: relative;
+  margin: 0 auto;
+
+}
+
+.lmainpicture {
+background-image: url("../img/phones.png");
+background position: left;
+background-size: 100%;
+background-repeat: no-repeat;
+background-position:center;
+height: 100%;
+width:30%;
+display:flex;
+float: left;
+}
+.rmainmessage {
+width:48%;
+height: 100%;
+display:flex;
+text align: right;
+float:right;
 }
